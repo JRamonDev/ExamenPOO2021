@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen Final POO</title>
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body class="cuerpo">
+  <main class="container">
+    <div align="center">
+      <div>
+        <h1>APP PRECIOS</h1>
+        <div>
+          <button onclick="addToCart(this.id)" id="Arroz">Arroz</button>
+          <button onclick="addToCart(this.id)" id="Frijol">Frijol</button>
+          <button onclick="addToCart(this.id)" id="Aceite">Aceite a granel</button>
+          <button onclick="addToCart(this.id)" id="Cajillahuevos">Cajilla de huevos</button>
+          <button onclick="addToCart(this.id)" id="Queso">Queso</button>
+        </div><br>
+        <div>
+          <button onclick="addToCart(this.id)" id="Polloentero">Pollo entero</button>
+          <button onclick="addToCart(this.id)" id="Postaderes">Posta de res</button>
+          <button onclick="addToCart(this.id)" id="Postadecerdo">Posta de cerdo</button>
+          <button onclick="addToCart(this.id)" id="Cebolla">Cebolla</button>
+          <button onclick="addToCart(this.id)" id="Papa">Papa</button>
+        </div>
+      </div><br>
+      <div class="lista">
+        <ul id="cart-detail"></ul>
+      </div>
+      <div class="sumatotal">
+        <label class="sumatotal1" id="montototal1">TOTAL</label>
+        <p class="sumatotal2" id="montototal"></p>
+      </div>
+      <div class="cantidadpagar">
+        <label class="cantidadpagar1" id="montototal2">PAGAR</label>
+        <input class="cantidadpagar2" id="pagar" type="number">
+      </div>
+      <div class="detalles">
+        <button class="detalles1" onclick="vuelto()">Detalles</button>
+        <p class="vueltos" id="devuelto">Vuelto:</p>
+        <form name="formulario1">
+          <table class="detalles2">
+            <tbody>
+              <tr>
+                <label class="detalles3">Cantidad de billetes a devolver</label>
+                <td>
+                  <label for="billetes_de_10">Billetes de 10:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="billetes_de_10" step="1" type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="billetes_de_100">Billetes de 100:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="billetes_de_100" step="1" type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="billetes_de_20">Billetes de 20:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="billetes_de_20" step="1" type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="billetes_de_200">Billetes de 200:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="billetes_de_200" step="1" type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="billetes_de_5">Monedas de 5:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="billetes_de_5" step="1" type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="billetes_de_50">Billetes de 50:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="billetes_de_50" step="1" type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="billetes_de_500">Billetes de 500:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="billetes_de_500" step="1" type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="billetes_de_1000">Billetes de 1000:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="billetes_de_1000" step="1" type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="monedas_de_1">Monedas de 1:</label>
+                </td>
+                <td>
+                  <input readonly="readonly" class="inputdetalles" name="monedas_de_1" step="1" type="number" />
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="JS/app.js"></script>
+</body>
+
+</html>

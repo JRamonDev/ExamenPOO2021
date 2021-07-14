@@ -1,0 +1,87 @@
+.lista{
+    width: 400px; 
+    height: 250px;
+    background-color: blanchedalmond;
+    border:black 2px solid;
+}
+
+.sumatotal{
+    width: 400px; 
+    height: 90px;
+    background: radial-gradient(green,rgb(2, 80, 2));
+    text-align: center;
+    border:black 2px solid
+}
+
+.sumatotal1{
+    margin-top:10px;
+    display:inline-block;
+    font-weight: bold;
+}
+
+.sumatotal2{
+    font-size: 30px;
+}
+
+.cantidadpagar{
+    width: 400px; 
+    height: 60px;
+    background: radial-gradient(green,rgb(5, 146, 5),rgb(2, 80, 2));
+    text-align: center;
+    border:black 2px solid
+}
+
+.cantidadpagar1{
+    margin-top:10px;
+    display:inline-block;
+    font-weight: bold;
+}
+
+.cantidadpagar2{
+    width: 150px; 
+    height: 30px;
+    margin-top:10px;
+    display:inline-block
+}
+
+.detalles{
+    text-align: center; 
+    width: 400px; 
+    height: 440px;
+    background: radial-gradient(green,rgb(2, 80, 2));
+    border:black 2px solid;
+}
+
+.detalles1{
+    margin-top:10px;
+    display:inline-block
+}
+
+.detalles2{
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.inputdetalles{
+    width : 35px; 
+    height: 15px
+}
+
+.cuerpo{
+    background: linear-gradient(rgb(100, 100, 100), rgb(73, 73, 73),white);
+}
+
+.detalles3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vueltos{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    margin-bottom: 50px;
+}
